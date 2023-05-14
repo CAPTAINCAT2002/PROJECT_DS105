@@ -3,10 +3,10 @@
 
 Sinh viên thực hiện: 
 
-  Trịnh Thế Hiển - 20521310
-  Nguyễn Hùng Trung Hiếu - 20521323
-  Lưu Quang Tiến Hoàng - 20521342
-  Nguyễn Thành Nhân - 20521701
+  - Trịnh Thế Hiển - 20521310
+  - Nguyễn Hùng Trung Hiếu - 20521323
+  - Lưu Quang Tiến Hoàng - 20521342
+  - Nguyễn Thành Nhân - 20521701
 
 
 
