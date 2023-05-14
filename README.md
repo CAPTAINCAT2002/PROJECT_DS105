@@ -25,7 +25,10 @@ Phần tiền xử lý gồm các bước:
 Sau khi thực hiện bước tiền xử lý dữ liệu, file dữ liệu sạch (Tidy Data) có kích
 thước 378 KB, bao gồm 1159 dòng dữ liệu và 24 thuộc tính. Thông tin cụ thể của các
 thuộc tính được thể hiện ở bảng sau:
+
 ![image](https://github.com/CAPTAINCAT2002/PROJECT_DS105/assets/133556107/e3737525-49c0-4038-9863-99fd82027d38)
+
+![image](https://github.com/CAPTAINCAT2002/PROJECT_DS105/assets/133556107/2e40c255-5304-4e7e-982c-a508e4d7551c)
 
 
 # 3. 
