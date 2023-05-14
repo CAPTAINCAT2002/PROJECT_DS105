@@ -47,6 +47,55 @@ nay laptop trên thị trường tập trung nhiều nhất ở phân khúc từ
 ![image](https://github.com/CAPTAINCAT2002/PROJECT_DS105/assets/133556107/202f9e14-0625-4a89-a3aa-2f32fb03eaea)
 ![image](https://github.com/CAPTAINCAT2002/PROJECT_DS105/assets/133556107/f95ee091-e8e0-435f-b4c7-be363d5c9635)
 
+# 4. PHƯƠNG PHÁP MÁY HỌC
+## 4.1. Lọc thuộc tính phù hợp với mô hình
+Đối với biến định lượng, chúng tôi sử dụng độ đo Pearson correlation để lọc ra những biến có khả năng phù hợp với dữ liệu nhất. Sau đó chúng tôi tiến hành kiểm tra kỹ lưỡng các biến đó có thực sự phù hợp với mô hình hay không thông qua quy trình sau: 
+  - Trực quan hình ảnh phân phối dữ liệu (histogram) kiểm tra phân phối và tình trạng của outlier.
+  - Trực quan regression plot kết hợp với độ đo Pearson và Residual Plot để kiểm tra về mức độ tương quan của biến đó với biến dự đoán.
+Khi thông qua 3 bước trên, chúng tôi có thể phần nào xem xét rõ các biến định lượng nào thật sự ảnh hưởng đến biến dự đoán và có thể dùng được.
+Đối với biến định tính, chúng tôi sử dụng quy trình khác:
+  - Trực quan hình ảnh phân phối dữ liệu (histogram) kiểm tra phân phối và tình trạng của outlier.
+  - Trực quan Box plot kết hợp cùng kiểm tra Anova để kiểm tra mức độ chắc chắn về sự ảnh hưởng của biến định tính đó với biến dự đoán.
+Khi thông qua 3 bước trên, chúng tôi có thể phần nào xem xét rõ các biến định tính nào thật sự ảnh hưởng đến biến dự đoán và có thể dùng được.
+Sau khi hoàn thành quy tình trên, chúng tôi đã chọn ra được 9 thuộc tính bao gồm: ‘weight’, ‘CPU rank’, ‘GPU performance’, ‘Brand’, ‘Laptop type’, ‘Laptop purpose’, ‘RAM type’ và ‘Operating System’.
+
+## 4.2. Mô hình sử dụng
+Bộ dữ liệu được chia thành 2 tập Train và Test (tỷ lệ 8-2) và sử dụng các mô hình
+máy học sau:
+− Decision Tree
+− Random Forest
+− Ridge
+− Support Vector Machine - SVM
+
+## 4.3. Kết quả mô hình
+Chúng tôi sử dụng độ đo đánh giá là: R2
+Kết quả mô hình thể hiện trong bảng sau
+
+![image](https://github.com/CAPTAINCAT2002/PROJECT_DS105/assets/133556107/19c8036c-9ede-4e11-9461-1f1e70165c18)
+
+# 5. KẾT LUẬN
+## 5.1 Kết quả đạt được
+
+- Qua đồ án này, chúng tôi đã đạt mục tiêu đã được đề ra từ đầu, đó là tự thu thập và xây dựng, phân tích và trực quan được bộ dữ liệu.
+- Xây dựng được các mô hình áp dụng cho bộ dữ liệu
+- Tìm hiểu, sử dụng được một số phương pháp tiền xử lý, phân tích và trực quan, cũng như xây dựng các mô hỉnh máy học áp dụng cho bộ dữ liệu đã xây dựng.
+- Nắm được kiến thức cơ bản, có cái nhìn cơ bản tổng thể về Phân tích và trực quan dữ liệu cũng như về Machine Learning.
+
+## 5.2 Khó khăn gặp phải
+
+- Thiếu kinh nghiệm giải quyết các vấn đề gặp phải khi tự thực hiện thu thập dữ liệu
+- Thiếu kinh nghiệm trong việc tìm hiểu các thư viên mới, các cách xử lý mới trong phân tích và trực quan dữ liệu
+- Thiếu kinh nghiệm trong bài toán xử lý dữ liệu có nhiều thuộc tính nói riêng và các bài toán Machine Learning nói chung dẫn đến việc gặp nhiều khó khăn trong quá trình thu thập cũng như xử lý dữ liệu.
+- Bộ dữ liệu chưa đủ lớn, dẫn đến kết quả mô hình chưa cao như mong muốn. Nhiều mô hình chạy demo cho kết quả sai
+- Hạn chế về kiến thức nền khiến cho việc tiếp cận các phương pháp xử lý dữ liệu cũng như tinh chỉnh mô hình trong python và xây dựng app demo bằng streamlit
+
+
+
+
+
+
+
+
 
 
 
