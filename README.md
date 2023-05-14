@@ -19,16 +19,16 @@ Sinh viên thực hiện:
 
   Chúng tôi quyết định tự xây dựng bộ dữ liệu và thực hiện thu thập dữ liệu từ 3
 nguồn khác nhau, bao gồm:
-− amazon.com (là nguồn chính để lấy danh sách và thông tin laptop).
-− cpubenchmark.net và notebookcheck.net (thu thập thông tin về xếp hạng
+  - amazon.com (là nguồn chính để lấy danh sách và thông tin laptop).
+  - cpubenchmark.net và notebookcheck.net (thu thập thông tin về xếp hạng
 cũng như hiệu năng của từng CPU và Card đồ hoạ của Laptop).
 
 ## 2.2. Tiền xử lý dữ liệu
 
 Phần tiền xử lý gồm các bước:
-− Xóa cột dư thừa & cột có tỷ lệ missing data cao
-− Trích thông tin cần thiết từ một số cột, tạo cột mới, feature engineering
-− Điền các giá trị bị khuyết
+  - Xóa cột dư thừa & cột có tỷ lệ missing data cao.
+  - Trích thông tin cần thiết từ một số cột, tạo cột mới, feature engineering
+  - Điền các giá trị bị khuyết
 
 ## 2.3. Khảo sát bộ dữ liệu
 
