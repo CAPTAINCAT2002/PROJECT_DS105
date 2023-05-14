@@ -1,7 +1,14 @@
 # PROJECT_DS105
 # PHÂN TÍCH CÁC YẾU TỐ ẢNH HƯỞNG ĐẾN  GIÁ LAPTOP VÀ DỰ ĐOÁN
 
-![image](https://github.com/CAPTAINCAT2002/PROJECT_DS105/assets/133556107/44d6adb3-b716-4935-aaea-3dfbe1d48d44)
+Sinh viên thực hiện: 
+
+Trịnh Thế Hiển - 20521310
+Nguyễn Hùng Trung Hiếu - 20521323
+Lưu Quang Tiến Hoàng - 20521342
+Nguyễn Thành Nhân - 20521701
+
+
 
 # 1. GIỚI THIỆU 
 
