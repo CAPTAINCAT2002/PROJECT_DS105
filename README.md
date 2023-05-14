@@ -62,10 +62,10 @@ Sau khi hoàn thành quy tình trên, chúng tôi đã chọn ra được 9 thu�
 ## 4.2. Mô hình sử dụng
 Bộ dữ liệu được chia thành 2 tập Train và Test (tỷ lệ 8-2) và sử dụng các mô hình
 máy học sau:
- − Decision Tree
- − Random Forest
- − Ridge
- − Support Vector Machine - SVM
+  - Decision Tree
+  - Random Forest
+  - Ridge
+  - Support Vector Machine - SVM
 
 ## 4.3. Kết quả mô hình
 Chúng tôi sử dụng độ đo đánh giá là: R2
